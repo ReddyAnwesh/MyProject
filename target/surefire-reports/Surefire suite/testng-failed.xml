@@ -3,13 +3,31 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="Test1">
+      <class name="TestLayer.HomePageTest">
         <methods>
-          <include name="runn"/>
-          <include name="testafter"/>
-          <include name="testbefore"/>
+          <include name="getHomePageTitleTest"/>
+          <include name="validateHomePageTest"/>
+          <include name="tearDown"/>
+          <include name="adminTest"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Test1 -->
+      </class> <!-- TestLayer.HomePageTest -->
+      <class name="TestLayer.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validateurl"/>
+          <include name="tearDown"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- TestLayer.LoginPageTest -->
+      <class name="TestLayer.AdminPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="validateHomePageTest"/>
+          <include name="adminViaDropDownTest"/>
+        </methods>
+      </class> <!-- TestLayer.AdminPageTest -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

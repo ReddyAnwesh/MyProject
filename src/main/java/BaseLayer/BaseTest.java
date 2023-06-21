@@ -18,8 +18,7 @@ public class BaseTest {
 	public BaseTest() throws Exception {
 		prop = new Properties();
 
-		FileInputStream fis = new FileInputStream("C:\\Users\\Hp\\eclipse-workspace\\"
-				+ "SeleniumAutomation\\src\\test\\resources\\com.automation.properties\\prop.properties");
+		FileInputStream fis = new FileInputStream("C:\\Users\\Hp\\Documents\\Git Projects\\MyProject\\src\\test\\resources\\com.automation.properties\\prop.properties");
 		prop.load(fis);
 
 	}

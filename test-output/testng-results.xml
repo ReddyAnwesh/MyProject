@@ -1,29 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-15T11:55:03 IST" name="OrangeHRM" finished-at="2023-06-15T11:55:36 IST" duration-ms="32850">
+  <suite started-at="2023-06-21T17:37:24 IST" name="Suite" finished-at="2023-06-21T17:42:20 IST" duration-ms="296263">
     <groups>
     </groups>
-    <test started-at="2023-06-15T11:55:03 IST" name="Test" finished-at="2023-06-15T11:55:36 IST" duration-ms="32806">
+    <test started-at="2023-06-21T17:37:24 IST" name="Test" finished-at="2023-06-21T17:42:20 IST" duration-ms="296263">
       <class name="TestLayer.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.HomePageTest@5b247367]" started-at="2023-06-15T11:55:03 IST" name="setup" finished-at="2023-06-15T11:55:23 IST" duration-ms="20361" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:37:24 IST" name="setup" finished-at="2023-06-21T17:38:33 IST" duration-ms="68446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="selectDropDownTest()[pri:3, instance:TestLayer.HomePageTest@5b247367]" started-at="2023-06-15T11:55:23 IST" name="selectDropDownTest" finished-at="2023-06-15T11:55:35 IST" duration-ms="12008" status="PASS">
+        <test-method signature="getHomePageTitleTest()[pri:0, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:38:33 IST" name="getHomePageTitleTest" finished-at="2023-06-21T17:38:33 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHomePageTitleTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:38:33 IST" name="tearDown" finished-at="2023-06-21T17:38:33 IST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:38:33 IST" name="setup" finished-at="2023-06-21T17:38:55 IST" duration-ms="21926" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateHomePageTest()[pri:1, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:38:55 IST" name="validateHomePageTest" finished-at="2023-06-21T17:38:55 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:38:55 IST" name="tearDown" finished-at="2023-06-21T17:38:55 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:38:55 IST" name="setup" finished-at="2023-06-21T17:39:25 IST" duration-ms="29287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="adminTest()[pri:2, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:39:25 IST" name="adminTest" finished-at="2023-06-21T17:39:26 IST" duration-ms="1037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:39:26 IST" name="tearDown" finished-at="2023-06-21T17:39:26 IST" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:39:26 IST" name="setup" finished-at="2023-06-21T17:39:50 IST" duration-ms="24410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="selectDropDownTest()[pri:3, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:39:50 IST" name="selectDropDownTest" finished-at="2023-06-21T17:39:57 IST" duration-ms="6908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDropDownTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.HomePageTest@5b247367]" started-at="2023-06-15T11:55:35 IST" name="tearDown" finished-at="2023-06-15T11:55:36 IST" duration-ms="356" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.HomePageTest@2002fc1d]" started-at="2023-06-21T17:39:57 IST" name="tearDown" finished-at="2023-06-21T17:39:57 IST" duration-ms="205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestLayer.HomePageTest -->
+      <class name="TestLayer.LoginPageTest">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:1, instance:TestLayer.LoginPageTest@445b295b]" started-at="2023-06-21T17:41:07 IST" name="loginTest" data-provider="excel-data" finished-at="2023-06-21T17:41:07 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Data Provider public java.lang.Object[][] TestLayer.LoginPageTest.excelDP() throws java.io.IOException returned a null value]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Data Provider public java.lang.Object[][] TestLayer.LoginPageTest.excelDP() throws java.io.IOException returned a null value
+at org.testng.internal.invokers.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:159)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:803)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:728)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:911)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- TestLayer.LoginPageTest -->
+      <class name="TestLayer.AdminPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.AdminPageTest@1757cd72]" started-at="2023-06-21T17:39:57 IST" name="setup" finished-at="2023-06-21T17:40:23 IST" duration-ms="26120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateHomePageTest()[pri:1, instance:TestLayer.AdminPageTest@1757cd72]" started-at="2023-06-21T17:40:23 IST" name="validateHomePageTest" finished-at="2023-06-21T17:40:24 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.AdminPageTest@1757cd72]" started-at="2023-06-21T17:40:24 IST" name="tearDown" finished-at="2023-06-21T17:40:24 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.AdminPageTest@1757cd72]" started-at="2023-06-21T17:40:24 IST" name="setup" finished-at="2023-06-21T17:40:53 IST" duration-ms="29016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnEducationTest()[pri:2, instance:TestLayer.AdminPageTest@1757cd72]" started-at="2023-06-21T17:40:53 IST" name="clickOnEducationTest" finished-at="2023-06-21T17:41:06 IST" duration-ms="13426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEducationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.AdminPageTest@1757cd72]" started-at="2023-06-21T17:41:06 IST" name="tearDown" finished-at="2023-06-21T17:41:07 IST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestLayer.AdminPageTest -->
+      <class name="TestLayer.EducationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.EducationPageTest@49e5f737]" started-at="2023-06-21T17:41:07 IST" name="setup" finished-at="2023-06-21T17:41:41 IST" duration-ms="34729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateEducationPageTest()[pri:0, instance:TestLayer.EducationPageTest@49e5f737]" started-at="2023-06-21T17:41:41 IST" name="validateEducationPageTest" finished-at="2023-06-21T17:41:41 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateEducationPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.EducationPageTest@49e5f737]" started-at="2023-06-21T17:41:41 IST" name="tearDown" finished-at="2023-06-21T17:41:42 IST" duration-ms="333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestLayer.EducationPageTest@49e5f737]" started-at="2023-06-21T17:41:42 IST" name="setup" finished-at="2023-06-21T17:42:15 IST" duration-ms="33204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clickOnDeleteTest()[pri:1, instance:TestLayer.EducationPageTest@49e5f737]" started-at="2023-06-21T17:42:15 IST" name="clickOnDeleteTest" finished-at="2023-06-21T17:42:20 IST" duration-ms="5290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDeleteTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestLayer.EducationPageTest@49e5f737]" started-at="2023-06-21T17:42:20 IST" name="tearDown" finished-at="2023-06-21T17:42:20 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestLayer.EducationPageTest -->
     </test> <!-- Test -->
-    <test started-at="2023-06-15T11:55:36 IST" name="Test1" finished-at="2023-06-15T11:55:36 IST" duration-ms="1">
-    </test> <!-- Test1 -->
-    <test started-at="2023-06-15T11:55:36 IST" name="Test2" finished-at="2023-06-15T11:55:36 IST" duration-ms="2">
-    </test> <!-- Test2 -->
-  </suite> <!-- OrangeHRM -->
+  </suite> <!-- Suite -->
 </testng-results>

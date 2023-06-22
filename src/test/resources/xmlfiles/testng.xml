@@ -3,6 +3,7 @@
 <suite name="OrangeHRM" verbose="1">
 	<listeners>
 		<listener class-name="ExtentReportListener.ExtentReport" />
+		<listener class-name="ExtentReportListener.Listners" />
 	</listeners>
 	<test name="Test">
 		<classes>
